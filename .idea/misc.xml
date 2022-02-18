@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/JEONGDONGJUN/Desktop/ViewPager_Fragment_20220218/app/src/main/res/layout/fragment_birth_year.xml" value="0.19814814814814816" />
+        <entry key="..\:/Users/JEONGDONGJUN/Desktop/ViewPager_Fragment_20220218/app/src/main/res/layout/fragment_etc1.xml" value="0.3415384615384615" />
+        <entry key="..\:/Users/JEONGDONGJUN/Desktop/ViewPager_Fragment_20220218/app/src/main/res/layout/fragment_etc2.xml" value="0.3415384615384615" />
+        <entry key="..\:/Users/JEONGDONGJUN/Desktop/ViewPager_Fragment_20220218/app/src/main/res/layout/fragment_hello.xml" value="0.19814814814814816" />
+        <entry key="..\:/Users/JEONGDONGJUN/Desktop/ViewPager_Fragment_20220218/app/src/main/res/layout/fragment_name.xml" value="0.19814814814814816" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
