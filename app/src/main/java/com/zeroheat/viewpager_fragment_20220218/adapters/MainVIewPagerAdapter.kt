@@ -16,27 +16,34 @@ class MainVIewPagerAdapter(fragmentManager: FragmentManager) : FragmentPagerAdap
 
     //필수 오버라이딩 함수 2개
     //몇페이지 뷰페이저 인지 숫자 알려주셈
-    override fun getCount(): Int {
-        return 5
-    }
-    // override fun getCount() = 5
+//    override fun getCount(): Int {
+//        return 5
+//    }
+     override fun getCount() = 5
 
 
     // 각각의 position에 맞는 프래그먼트가 결과로 나가도록 리턴.
     override fun getItem(position: Int): Fragment {
-        if (position == 0) {
-            return NameFragment()
+        return when (position){
+            0 -> {
+                NameFragment()
+            }
+            1 -> {
+                HelloFragment()
+            }
+            2 -> {
+                BirthYearFragment()
+            }
+            3 -> {
+                Etc1Fragment()
+            }
+            4 -> {
+                Etc2Fragment()
+            }
+            else -> Etc2Fragment()
+
         }
-        else if (position == 1) {
-            return BirthYearFragment()
-        }else if (position == 2) {
-            return HelloFragment()
-        }else if (position == 3) {
-            return Etc1Fragment()
-        }
-        else {
-            return Etc2Fragment()
-        }
+
     }
 
 
