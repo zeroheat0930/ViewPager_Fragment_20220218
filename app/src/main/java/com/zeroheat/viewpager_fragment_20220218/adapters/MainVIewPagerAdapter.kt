@@ -49,9 +49,6 @@ class MainVIewPagerAdapter(fragmentManager: FragmentManager) : FragmentPagerAdap
             3 -> {
                 Etc1Fragment()
             }
-            4 -> {
-                Etc2Fragment()
-            }
             else -> Etc2Fragment()
 
         }
