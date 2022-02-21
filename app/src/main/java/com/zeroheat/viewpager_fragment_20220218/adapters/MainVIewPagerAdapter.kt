@@ -17,7 +17,9 @@ class MainVIewPagerAdapter(fragmentManager: FragmentManager) : FragmentPagerAdap
         return  when (position){
             0 -> "이름"
             1 -> "출생년도"
-            else -> "인사말"
+            2 -> "인사말"
+            3 -> "기타1"
+            else -> "기타2"
         }
     }
 
