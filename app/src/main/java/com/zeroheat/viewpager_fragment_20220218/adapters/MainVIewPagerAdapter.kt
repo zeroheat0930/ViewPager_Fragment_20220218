@@ -13,6 +13,18 @@ import com.zeroheat.viewpager_fragment_20220218.fragments.*
 class MainVIewPagerAdapter(fragmentManager: FragmentManager) : FragmentPagerAdapter(fragmentManager) {
 
 
+    override fun getPageTitle(position: Int): CharSequence? {
+        return  when (position){
+            0 -> "이름"
+            1 -> "출생년도"
+            else -> "인사말"
+        }
+    }
+
+
+
+
+
 
     //필수 오버라이딩 함수 2개
     //몇페이지 뷰페이저 인지 숫자 알려주셈
@@ -29,10 +41,10 @@ class MainVIewPagerAdapter(fragmentManager: FragmentManager) : FragmentPagerAdap
                 NameFragment()
             }
             1 -> {
-                HelloFragment()
+                BirthYearFragment()
             }
             2 -> {
-                BirthYearFragment()
+                HelloFragment()
             }
             3 -> {
                 Etc1Fragment()
